@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CleanArchitecture</string>
+    <string name="enter_your_name">Please Enter Your Name</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="accept">Accept</string>
 </resources>

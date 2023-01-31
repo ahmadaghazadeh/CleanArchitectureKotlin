@@ -1,5 +1,6 @@
 package com.arad.cleanarchitecture
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -10,11 +11,14 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.arad.cleanarchitecture.register.RegisterActivity
 import com.arad.cleanarchitecture.ui.theme.CleanArchitectureTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        startActivity(Intent(this, RegisterActivity::class.java));
         setContent {
             CleanArchitectureTheme {
                 // A surface container using the 'background' color from the theme
@@ -22,22 +26,10 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Greeting("Android")
+
                 }
             }
         }
     }
 }
 
-@Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
-}
-
-@Preview(showBackground = true)
-@Composable
-fun DefaultPreview() {
-    CleanArchitectureTheme {
-        Greeting("Android")
-    }
-}

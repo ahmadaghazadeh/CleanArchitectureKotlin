@@ -22,6 +22,7 @@
 * Modularization
 * Jetpack Navigation
 * TTS
+* Firebase Remote Configure
 
 # I WILL DO
 Main functionality of this application is store picture & sound with text that help my son to learn and improve his English.
@@ -48,4 +49,6 @@ Main functionality of this application is store picture & sound with text that h
 
 ## 7. Show Card
 
-
+## 8. Admins Pages
+1. Convert a user to admin users
+2. Activate A Album

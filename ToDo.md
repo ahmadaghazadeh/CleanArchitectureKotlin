@@ -51,5 +51,5 @@ Main functionality of this application is store picture & sound with text that h
 
 ## 8. Admins Pages
 1. Convert a user to admin users
-2. Activate A Album
+2. Activate a album
 3. Request a user to admin

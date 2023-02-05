@@ -49,7 +49,14 @@ Main functionality of this application is store picture & sound with text that h
 
 ## 7. Show Card
 
-## 8. Admins Pages
+## 8. Landing page
+
+## 9. Admins Pages
 1. Convert a user to admin users
 2. Activate a album
 3. Request a user to admin
+
+## 10.Search In users
+1. Flow a user
+
+## 11. Refactor landing page query

@@ -33,6 +33,7 @@ Main functionality of this application is store picture & sound with text that h
 
 ## 1. login page
 * Firebase Authentication
+* 
 
 ## 2. Create Album
 * Name, UserName, Id, IsRequestActive, IsActive

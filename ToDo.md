@@ -61,3 +61,4 @@ Main functionality of this application is store picture & sound with text that h
 1. Flow a user
 
 ## 11. Refactor landing page query
+1. Show several types cards

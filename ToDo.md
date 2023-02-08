@@ -23,6 +23,7 @@
 * Jetpack Navigation
 * TTS
 * Firebase Remote Configure
+* MAD
 
 # I WILL DO
 Main functionality of this application is store picture & sound with text that help my son to learn and improve his English.
